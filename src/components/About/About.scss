@@ -1,0 +1,118 @@
+.about__container {
+  flex-direction: column;
+  margin-top: 50px;
+}
+.about__header {
+  font-family: $Roboto;
+  font-size: 72px;
+  line-height:150%;
+  font-weight: 900;
+}
+.about__subheader {
+  font-family: $Roboto;
+  font-size: 48px;
+  line-height:150%;
+  font-weight: 700;
+}
+
+.about__subheader-every-part,
+.about__header-no-part {
+  text-transform: uppercase;
+}
+.about__p1 {
+  max-width: 550px;
+
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+
+  margin-top: 15px;
+}
+.about__team {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.about__team-header {
+  font-size: 42px;
+  line-height: 150%;
+}
+.about__team-subheader {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about__team-cardset {
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+.about__team-card {
+  max-width: 240px;
+  min-height: 280px;
+  width: 100%;
+  padding: 20px;
+
+  border: 1px solid #e9e9e9;
+  border-radius: 6px;
+  margin:5px;
+}
+.card__img-block {
+  width: 100%;
+  height: 140px;
+  background-color: #464646;
+
+  margin-bottom: 20px;
+}
+.card__expert-name,
+.card__specialization,
+.card__experiance {
+
+  margin-bottom: 8px;
+}
+.card__expert-name {
+  font-weight: 500;
+}
+
+.about__technologies {
+
+  margin-bottom: 50px;
+}
+.about__technologies-header {
+  font-size: 42px;
+  line-height: 150%;
+}
+.about__technologies-subheader {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about__technologies-cardset {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+.about__technologie-card {
+  max-width: 170px;
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 6px;
+
+  padding: 20px;
+  margin: 5px;
+}
+
+.about__technologie-logo {
+  width: 100%;
+  height: 100px;
+  background-color: #464646;
+
+  margin-bottom: 20px;
+}
+.about__technologie-name {
+  font-weight: 500;
+}
