@@ -45,6 +45,8 @@ export default function HomePage() {
     setCount(filteredArticles.length)
   }, [count, page, limit, JSON.stringify(filteredArticles)]
   )
+  
+
   return (
     <div className='wrapper homepage'>
       <div className="container padding homepage__container">
