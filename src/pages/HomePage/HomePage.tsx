@@ -23,7 +23,7 @@ const HomePage: FC = () => {
 
   //pagination states
   const [count, setCount] = useState<number>()
-  const [limit, setLimit] = useState<number>(5)
+  const [limit] = useState<number>(5)
   const [page, setPage] = useState<number>(1)
 
   //taking data from server
