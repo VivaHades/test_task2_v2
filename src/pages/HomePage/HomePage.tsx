@@ -28,7 +28,8 @@ const HomePage: FC = () => {
 
   //taking data from server
   //https://ru.reactjs.org/docs/faq-ajax.html
-
+  //there is no dependencies(dependecies array is empty), but this useEffect still makes two requests to the server
+  //Can't find the reason
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((res) => res.json())
