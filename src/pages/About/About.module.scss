@@ -1,25 +1,25 @@
-.about__container {
+.about_container {
   flex-direction: column;
   margin-top: 50px;
 }
-.about__header {
+.about_header {
   font-family: $Roboto;
   font-size: 72px;
   line-height:150%;
   font-weight: 900;
 }
-.about__subheader {
+.about_subheader {
   font-family: $Roboto;
   font-size: 48px;
   line-height:150%;
   font-weight: 700;
 }
 
-.about__subheader-every-part,
-.about__header-no-part {
+.about_subheader_every_part,
+.about_header_no_part {
   text-transform: uppercase;
 }
-.about__p1 {
+.about_p1 {
   max-width: 550px;
 
   font-size: 18px;
@@ -28,25 +28,26 @@
 
   margin-top: 15px;
 }
-.about__team {
+.about_team {
   margin-top: 50px;
   margin-bottom: 70px;
 }
-.about__team-header {
+.about_team_header {
   font-size: 42px;
   line-height: 150%;
 }
-.about__team-subheader {
+.about_team_subheader {
   font-size: 20px;
   font-weight: 500;
 }
 
-.about__team-cardset {
+.about_team_cardset {
   justify-content: space-between;
 
   margin-top: 50px;
 }
-.about__team-card {
+.about_team_card {
+
   max-width: 240px;
   min-height: 280px;
   width: 100%;
@@ -56,44 +57,50 @@
   border-radius: 6px;
   margin:5px;
 }
-.card__img-block {
+.card_img_block {
   width: 100%;
-  height: 140px;
-  background-color: #464646;
+  max-height: 180px;
+  overflow:hidden;
 
   margin-bottom: 20px;
 }
-.card__expert-name,
-.card__specialization,
-.card__experiance {
+
+.card_img {
+  width: 100%;
+  height: auto;
+  object-fit:cover;
+}
+.card_expert_name,
+.card_specialization,
+.card_experiance {
 
   margin-bottom: 8px;
 }
-.card__expert-name {
+.card_expert_name {
   font-weight: 500;
 }
 
-.about__technologies {
+.about_technologies {
 
   margin-bottom: 50px;
 }
-.about__technologies-header {
+.about_technologies_header {
   font-size: 42px;
   line-height: 150%;
 }
-.about__technologies-subheader {
+.about_technologies_subheader {
   font-size: 20px;
   font-weight: 500;
 }
 
-.about__technologies-cardset {
+.about_technologies_cardset {
   display: flex;
   justify-content: space-between;
 
   margin-top: 50px;
 }
-.about__technologie-card {
-  max-width: 170px;
+.about_technologie_card {
+  max-width: 200px;
   width: 100%;
   min-height: 120px;
   display: flex;
@@ -106,13 +113,22 @@
   margin: 5px;
 }
 
-.about__technologie-logo {
+.about_technologie_logo {
   width: 100%;
   height: 100px;
-  background-color: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   margin-bottom: 20px;
 }
-.about__technologie-name {
+.about_technologie_svg {
+  max-width: 155px;
+  max-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_technologie_name {
   font-weight: 500;
 }

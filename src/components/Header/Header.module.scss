@@ -4,18 +4,15 @@
   background: #464646;
 }
 
-.header__container {
+.header_container {
   justify-content: space-between;
 }
 
-.header__linkset {
+.header_linkset {
   max-width: 400px;
   align-items: center;
 }
-.header__linkset-list-item {
-
-}
-.header__linkset-link {
+.header_linkset_link {
   padding: 15px 8px;
   color: $white;
   font-family: $Roboto;

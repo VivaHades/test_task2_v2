@@ -1,41 +1,41 @@
 .contacts {}
-.contacts__container {
+.contacts_container {
   flex-direction: column;
 
   margin-top: 50px;
 }
-.contacts__header {
+.contacts_header {
   font-size: 72px;
 }
-.contacts__phones {
+.contacts_phones {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
-.contacts__phones-label {
+.contacts_phones_label {
   font-size: 42px;
   font-weight: 500;
   margin-bottom: 20px;
 }
-.contacts__phone-number {
+.contacts_phone_number {
   font-size: 48px;
   margin-left: 15px;
 }
-.contacts__emails {
+.contacts_emails {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
 }
-.contacts__emails-label {
+.contacts_emails_label {
   font-size: 42px;
   margin-bottom: 20px;
   font-weight: 500;
 }
-.contacts__email {
+.contacts_email {
   font-size: 36px;
   margin-left: 15px;
 }
-.contacts__form {
+.contacts_form {
   max-width: 700px;
   width: 100%;
   display: flex;
@@ -44,13 +44,13 @@
   margin-top: 50px;
   margin-bottom: 75px;
 }
-.contacts__form-label {
+.contacts_form_label {
   font-size: 42px;
   margin-bottom: 20px;
   font-weight: 500;
   margin-bottom: 40px;
 }
-.contacts__form-textarea {
+.contacts_form_textarea {
   max-width: 700px;
   resize: none;
   padding: 10px 20px;
@@ -61,7 +61,7 @@
   border: 1px solid #e9e9e9;
   border-radius: 5px;
 }
-.contacts__form-button {
+.contacts_form_button {
   max-width: 200px;
   height: 60px;
   width: 100%;
